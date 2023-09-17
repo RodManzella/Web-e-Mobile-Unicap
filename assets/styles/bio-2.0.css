@@ -23,8 +23,8 @@ body{
     background:#352F44;
     padding: 20px;
     margin: 5px auto;
-    width: 65%;
-    border-radius: 80px;
+    width: 20%;
+    border-radius: 5px;
 }
 
 .navegacao a{
@@ -34,7 +34,8 @@ body{
     color: #FAF0E6;
     border-radius: 5px;
     padding: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
+    
 }
 
 .navegacao a:hover{
@@ -44,6 +45,8 @@ body{
 .navegacao a:active{
     background: #5C5470 ;
 }
+
+
 /*Biografia escrita*/
 
 .container-pai-historia{
@@ -56,7 +59,7 @@ body{
 
 .container{
     background: #352F44;
-    margin: 20px auto;
+    margin: 0px auto;
     width: 50%;
     padding: 20px;
     border-radius: 20px;
