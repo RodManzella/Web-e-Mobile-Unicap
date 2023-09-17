@@ -1,0 +1,13 @@
+.div-vermelho{
+    background: red;
+    width: 700px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.div-verde{
+    background: green;
+    width: 700px;
+    padding: 25px;
+    margin: 0px auto;
+}
