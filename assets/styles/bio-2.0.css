@@ -1,0 +1,53 @@
+/*Global reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+/*Ajustes*/
+.center-text{
+    text-align: center;
+}
+
+.font-color{
+    color: white;
+}
+
+body{
+    background: #5C5470;
+}
+
+
+/*Navegação*/
+.navegacao{
+    background:#352F44;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    font-size: 1.2em;
+    background:#5C5470;
+    color: #FAF0E6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navegacao a:hover{
+    background:#B9B4C7;
+}
+
+.navegacao a:active{
+    background: #5C5470 ;
+}
+/*Biografia escrita*/
+
+.container-infancia{
+    background: #352F44;
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
