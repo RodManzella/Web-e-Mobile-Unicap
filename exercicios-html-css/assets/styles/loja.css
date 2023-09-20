@@ -19,6 +19,7 @@ footer {
     float: left;
 }
 
+
 .product img {
     max-width: 100%;
     height: auto;
@@ -28,7 +29,6 @@ footer {
     clear: both;
 }
 .alinhar{
-    text-align: center;
-    margin: 0px auto;
-    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
 }
