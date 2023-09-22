@@ -31,7 +31,9 @@
     background-color: green;
     margin: auto;
     width: 40%;
-    padding: 150px 100px
+    padding: 150px 100px;
+    border: 5px solid black;
+    border-radius: 30px;
 }
 
 .div-imagens-button img{
@@ -42,9 +44,13 @@
 .div-imagens-button > button{
     display: block;
     margin: 50px auto;
-    font-size: 32px;
+    font-size: 28px;
     color: black;
-    padding: 30px 0px;    
+    padding: 20px 0px;    
+}
+
+.div-imagens-button .bob-gangster{
+    position: relative;
 }
 
 button:hover{
