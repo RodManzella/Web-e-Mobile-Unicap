@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dig´s Cassino</title>
     <link rel="stylesheet" href="style.css">
-    <script src="dados.js"></script>
 </head>
 <body class="container-background">
     <div class="container-titulo">
@@ -16,13 +15,15 @@
         <div class="div-imagens-button">
             <img src="imgs/dice1.png" id="dado1" alt="dadoface1">
             <img src="imgs/dice1.png" id="dado2" alt="dadoface1">
-            <button class="button-cassino" id="button">Tente sua sorte!</button>
+            <button class="button-cassino" id="button" onclick="partida">Tente sua sorte!</button>
+            Soma:<p id="soma"></p>
+            Ponto:<p id="ponto"></p>
+            <h2 id="resultado"></h2>
         </div>
     </div>
     <img src="imgs/gangasterbob.png" class="bob-gangster" alt="bobsponjagangster">
-
-        
     </div>
+    <script src="dados.js"></script>
     
 </body>
 </html>
