@@ -49,6 +49,10 @@
     padding: 20px 0px;    
 }
 
+.div-imagens-button h3{
+    color: white;
+}
+
 .div-imagens-button .bob-gangster{
     position: relative;
 }

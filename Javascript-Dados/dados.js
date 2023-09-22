@@ -1,4 +1,9 @@
-function randomNumber(){
+
+function randomDice(){
     return Math.floor(Math.random() * 6) + 1;
 }
+
+
+
+
 
