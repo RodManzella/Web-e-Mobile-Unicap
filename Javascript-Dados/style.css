@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-background{
+    background-image: url(imgs/cassino.jpg);
+    background-size: 1920px 1080px;
+}
+
+.container-titulo{
+    text-align: center;
+    background-color: rgba(255, 00, 00, 0.7);
+    margin-bottom: 100px;
+    
+}
+.h1-cassino{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.container-titulo img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.div-imagens-button{
+    text-align: center;
+    background-color: green;
+    margin: auto;
+    width: 40%;
+    padding: 150px 100px
+}
+
+.div-imagens-button img{
+    width: 120px;
+    height: 120px;
+}
+
+.div-imagens-button > button{
+    display: block;
+    margin: 50px auto;
+    font-size: 32px;
+    color: black;
+    padding: 30px 0px;    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
